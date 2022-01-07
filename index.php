@@ -18,7 +18,7 @@
 $linkvar = isset($_GET['link']) ? $_GET['link'] : NULL;
 
 if (empty($linkvar)) {
-  header("Location: https://rkooyenga.github.io/oneworld-site-restore/", TRUE, 302);
+  header("Location: ./index.html", TRUE, 302);
   exit();
 }
 
