@@ -83,6 +83,7 @@ if(isset($_GET['type']) && $_GET['type'] != ''){
         header('Content-Type: text/plain');
     }
 }
+}
 
 # Now get the contents of our page we're wanting
 $contents = file_get_contents($_GET['link']);
