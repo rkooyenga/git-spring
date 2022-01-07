@@ -10,10 +10,10 @@ Common use case is as above, to link to a javascript or css file here to use ins
 
 Valid file types handled are:
 javascript
-css
-rss
-json
-html
+- css
+- rss
+- json
+- html
 
 Alternate url: ``gitspring.herokuapp.com``
 
