@@ -9,9 +9,10 @@ You can leave off the *type* argument if you wish and the service will determine
 Common use case is as above, to link to a javascript or css file here to use inside your page. However another useful thing it does is serve html. Meaning you can append the ``gitspring.app.raykooyenga.com`` with the link to say an html file in a Gist, and it will serve the Gist like it was being hosted on a domain. Pretty useful.
 
 Valid file types handled are:
-javascript
+- javascript
 - css
 - rss
+- xml
 - json
 - html
 
