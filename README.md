@@ -17,5 +17,5 @@ html
 
 Alternate url: ``gitspring.herokuapp.com``
 
-Written in PHP. And made in 2015 by [Ray kooyenga](http://rkooyenga.github.io)
+Written in PHP. Made by [Ray kooyenga](http://rkooyenga.github.io) in 2015
 Served by Heroku and [raykooyenga.com](raykooyenga.com)
