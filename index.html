@@ -27,57 +27,6 @@
 <p>Written in PHP. Made by Ray kooyenga in 2015 Served by Heroku and raykooyenga.com</p>
 
 </div></div>
-<script>
-function AJAXSubmit () {       
-var xhr = new XMLHttpRequest();
-xhr.open('get', './license.txt');
-xhr.setRequestHeader("Content-type", "text/plain",true);
-//  xhr.open("get", oFormElement.action);
-//  xhr.send(new FormData(oFormElement));
-xhr.onreadystatechange = function() {
-  if (xhr.readyState === 4 && xhr.status === 200) {
-    var data = xhr.responseText;
-            var sanitized;
-            sanitized = data.replace(/</g, '&lt;');
-            sanitized = sanitized.replace(/>/g, '&gt;');
-            sanitized = sanitized.replace(/\n/g, '<br>');
-          data=sanitized;    
-   
-    
-    
-    // Replaces all instances of the given substring.
-String.prototype.replaceAll = function( 
-    strTarget, // The substring you want to replace
-    strSubString // The string you want to replace in.
-    ){
-    var strText = this;
-    var intIndexOfMatch = strText.indexOf( strTarget );
-    
-    // Keep looping while an instance of the target string
-    // still exists in the string.
-    while (intIndexOfMatch != -1){
-        // Relace out the current instance.
-        strText = strText.replace( strTarget, strSubString )
-        
-        // Get the index of any next matching substring.
-        intIndexOfMatch = strText.indexOf( strTarget );
-    }
-    
-    // Return the updated string with ALL the target strings
-    // replaced out with the new substring.
-    return( strText );
-}
-   var software=document.forms["license-form"].elements["softwareNameInput"].value
-var entity=document.forms["license-form"].elements["entityNameInput"].value   
-data = data.replaceAll( "\{\{author\}\}",entity )    
-data = data.replaceAll( "\{\{prod_name\}\}",software )
-    
-    document.querySelector("#license").innerHTML = data;
-        }
-};
-xhr.send();
-}
-</script>
 <article id="getit" rel="anchor">
  <hr>
 <form id="license-form" method="get" onsubmit="AJAXSubmit(); return false;">
