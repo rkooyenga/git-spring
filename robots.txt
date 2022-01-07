@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Allow: index.html
+Disallow: index.php
+Crawl-delay: 1
