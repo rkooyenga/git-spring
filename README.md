@@ -18,5 +18,8 @@ Valid file types handled are:
 
 Alternate url: ``gitspring.herokuapp.com``
 
-Written in PHP. Made by [Ray kooyenga](http://rkooyenga.github.io) in 2015
+Written in PHP.
+
+Made by [Ray kooyenga](http://rkooyenga.github.io) in 2015
+
 Served by Heroku and [raykooyenga.com](raykooyenga.com)
