@@ -1,0 +1,6 @@
+{
+  "name": "git-spring",
+  "description": "a raw git proxy",
+  "repository": "https://github.com/rkooyenga/git-spring",
+  "addons": []
+}
