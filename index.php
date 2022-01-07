@@ -15,7 +15,12 @@
 # 
 ###################################################################################################################
 
+$linkvar = isset($_GET['link']) ? $_GET['link'] : NULL;
 
+if (empty($linkvar)) {
+  header("Location: https://rkooyenga.github.io/oneworld-site-restore/");
+  exit();
+}
 
 # First we need to set the headers for the output file
 # So check to see if the type is specified first and if so, then set according to what is being requested
