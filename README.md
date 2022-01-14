@@ -26,6 +26,6 @@ Valid file types handled are:
 
 Written in PHP.
 
-Made by [Ray kooyenga](https://rkooyenga.github.io) in 2015
+Made by [Ray kooyenga](https://raykooyenga.com) in 2015
 
-Served by Heroku and [raykooyenga.com](https://raykooyenga.com)
+Served by Heroku and Github Pages
